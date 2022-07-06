@@ -1,6 +1,8 @@
 body{
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 #header-section{
@@ -35,6 +37,9 @@ body{
     text-align: center;
     margin-left: 30%;
 }
+#doante-plan-heading{
+    font-size: 50px;
+}
 #donation-header-padding{
     padding: 180px 0;
 }
@@ -43,6 +48,7 @@ body{
 }
 #donation-plan{
     padding: 100px 0;
+    margin-top: 0;
 }
 .flexible-amount{
     display: flex;
@@ -54,6 +60,9 @@ body{
     margin-left: 20px;
     padding: 10px 10px;
     background-color: #d8d4d42a;
+}
+#donation-item-heading{
+    font-size: 25px;
 }
 #amount-color{
     margin-left: 20px;
@@ -82,7 +91,7 @@ body{
 
 .donation-item{
     width: 25%;
-    margin-left: 10px;
+    margin-left: 35px;
     padding: 10px 20px;
 }
 
@@ -102,7 +111,7 @@ body{
 
 .donation-contribute{
     display: flex;
-    margin: 100px;
+    margin: 100px 0 0 150px;
 }
 
 .contribute-item{
@@ -115,25 +124,28 @@ body{
     border-radius: 5px;
 }
 #update-section{
-    margin: 10px 0 0 50px;
+    margin: 20px 0 0 50px;
 
 }
 
 .update-form{
     width: 40%;
-    margin: 20px 30% 20px 25%;
-    padding: 100px;
+    margin: 40px 30% 20px 25%;
+    padding: 80px;
     background-color: #faebd7dc;
+    border-radius: 20px;
 }
 
 #input{
     width: 50%;
-    height: 30px;
+    height: 40px;
     border: none;
     background-color: #a5a29edc;
     color: black;
     border-radius:5px 0 0 5px;
+    margin-left: 95px;
 }
+
 #subscribe-btn{
     width: 20%;
     padding: 8px;
@@ -141,4 +153,22 @@ body{
     border-radius: 0 5px 5px 0;
     background-color: tomato;
     color: white;
+    height: 40px;
+}
+
+footer{
+    background-color: black;
+    margin-top: 20px;
+    height: 150px;
+}
+footer h3{
+    color: orange;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+}
+footer p{
+    color: rgb(110, 106, 106);
+    text-align: center;
+
 }
