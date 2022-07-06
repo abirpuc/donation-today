@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#header-section{
+    background-image: url(../images/donation13.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#header{
+    font-size: 50px;
+}
+
+.link-btn{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+#donate-today{
+    font-size: 40px;
+}
+.donation-header{
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 30%;
+}
+#donation-header-padding{
+    padding: 180px 0;
+}
+#donate-today-padding{
+    padding: 100px 0;
+}
+#donation-plan{
+    padding: 100px 0;
+}
+.flexible-amount{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.amount-item{
+    margin-left: 20px;
+    padding: 10px 10px;
+    background-color: #d8d4d42a;
+}
+#amount-color{
+    margin-left: 20px;
+    color: #f82a06e5;
+    padding: 10px 10px;
+    background-color: #fc3f1e2f;
+    border: 3px solid tomato;
+}
+.form{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.input-fild{
+    border: none;
+    width: 100%;
+    color: #d8d4d42a;
+    border-bottom: 1px solid #d8d4d442;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.flexible-donation{
+    display: flex;
+    margin: 0 12.5%;
+}
+
+.donation-item{
+    width: 25%;
+    margin-left: 10px;
+    padding: 10px 20px;
+}
+
+.donation-icon{
+    padding: 10px 2px;
+}
+
+#food-family{
+    background-color: #8493e98c;
+}
+#shelter-family{
+    background-color: #A6D4C0;
+}
+#education-child{
+    background-color: #F1CFF3;
+}
+
+.donation-contribute{
+    display: flex;
+    margin: 100px;
+}
+
+.contribute-item{
+    width: 40%;
+    margin: 20px 25px 10px 25px;
+}
+.contribute-img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+#update-section{
+    margin: 10px 0 0 50px;
+
+}
+
+.update-form{
+    width: 40%;
+    margin: 20px 30% 20px 25%;
+    padding: 100px;
+    background-color: #faebd7dc;
+}
+
+#input{
+    width: 50%;
+    height: 30px;
+    border: none;
+    background-color: #a5a29edc;
+    color: black;
+    border-radius:5px 0 0 5px;
+}
+#subscribe-btn{
+    width: 20%;
+    padding: 8px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: tomato;
+    color: white;
+}
