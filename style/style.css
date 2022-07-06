@@ -140,10 +140,14 @@ body{
     width: 50%;
     height: 40px;
     border: none;
+    color:black;
     background-color: #a5a29edc;
-    color: black;
     border-radius:5px 0 0 5px;
     margin-left: 95px;
+}
+
+input:focus{
+    color:black;
 }
 
 #subscribe-btn{
